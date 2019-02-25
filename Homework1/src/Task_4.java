@@ -13,7 +13,7 @@ public class Task_4 {
         if (A > B) {
             System.out.println(B + ", " + A); }
             else{
-                System.out.println("Error bratle. A e po-malko ot B");
+                System.out.println(B + ", " + A);
             }
         }
 
