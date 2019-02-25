@@ -9,12 +9,14 @@ public class Task_3 {
         int A = sc.nextInt();
         System.out.println("Insert B");
         int B = sc.nextInt();
+        int C = B;
 
+        B = A;
             {
-            System.out.println("New B = " + A);
+            System.out.println(B);
             }
         {
-            System.out.println("New A = " + B);
+            System.out.println(C);
         }
 
     }

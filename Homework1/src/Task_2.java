@@ -11,15 +11,17 @@ public class Task_2 {
         System.out.println("Insert B");
         int B = sc.nextInt();
 
-        int Sum = (A + B);
-        int Negative = (A - B);
-        int Multiply = (A * B);
-        int Devide = (A / B);
+        int sum = (A + B);
+        int negative = (A - B);
+        int multiply = (A * B);
+        int devide = (A / B);
+        int part = (A % B);
 
-        System.out.println("The sum of A+B = " + Sum);
-        System.out.println("The negative of A-B = " + Negative);
-        System.out.println("The multiply of A*B = " + Multiply);
-        System.out.println("The negative of A/B = " + Devide);
+        System.out.println("The sum of A+B = " + sum);
+        System.out.println("The negative of A-B = " + negative);
+        System.out.println("The multiply of A*B = " + multiply);
+        System.out.println("The devide of A/B = " + devide);
+        System.out.println("The devide of A%B = " + part);
 
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Insert C");
@@ -28,15 +30,17 @@ public class Task_2 {
         System.out.println("Insert D");
         double D = sc.nextDouble();
 
-        double S = (C+D);
-        double N = (C-D);
-        double M = (C*D);
-        double De = (C/D);
+        double s = (C+D);
+        double n = (C-D);
+        double m = (C*D);
+        double de = (C/D);
+        double par = (C%D);
 
-        System.out.println("The sum of C+D = " + S);
-        System.out.println("The negaitve of C-D = " + N);
-        System.out.println("The multiply of C*D = " + M);
-        System.out.println("The devide of C/D = " + De);
+        System.out.println("The sum of C+D = " + s);
+        System.out.println("The negaitve of C-D = " + n);
+        System.out.println("The multiply of C*D = " + m);
+        System.out.println("The devide of C/D = " + de);
+        System.out.println("The devide of C/D = " + par);
         System.out.println();
         System.out.println("Pi4 ti si ebati kodadjiqta");
 

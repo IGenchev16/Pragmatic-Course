@@ -13,7 +13,7 @@ public class Task_4 {
         if (A > B) {
             System.out.println(B + ", " + A); }
             else{
-                System.out.println(B + ", " + A);
+                System.out.println(A + ", " + B);
             }
         }
 
